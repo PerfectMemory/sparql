@@ -9,6 +9,9 @@ gem "rdf-xsd",            github: "ruby-rdf/rdf-xsd",             branch: "devel
 gem 'sparql-client',      github: "ruby-rdf/sparql-client",       branch: "develop"
 gem 'sxp',                github: "dryruby/sxp.rb",               branch: "develop"
 
+# Until Sinatra 2.0 release
+gem 'sinatra',            github: "sinatra/sinatra"
+
 group :development do
   gem 'json-ld',          github: "ruby-rdf/json-ld",             branch: "develop"
   gem 'linkeddata',       github: "ruby-rdf/linkeddata",          branch: "develop"
